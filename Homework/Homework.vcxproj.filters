@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Методы исследования">
+      <UniqueIdentifier>{1dd65e82-e493-49c0-b0ba-92a4cdaf968f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Вспомогательные классы">
+      <UniqueIdentifier>{9c3aa18b-664c-44f0-9dc7-697f59b12711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Методы исследования">
+      <UniqueIdentifier>{cfd1c5d0-f91e-481f-a5ef-a552e99705b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Вспомогательные классы">
+      <UniqueIdentifier>{3071c426-648b-46a9-81d3-0b062a2575f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Homework.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GaussMethod.cpp">
+      <Filter>Исходные файлы\Методы исследования</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapezoidalMethod.cpp">
+      <Filter>Исходные файлы\Методы исследования</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpsonMethod.cpp">
+      <Filter>Исходные файлы\Методы исследования</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Исходные файлы\Вспомогательные классы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConvergenceResearch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussMethod.h">
+      <Filter>Файлы заголовков\Методы исследования</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapezoidalMethod.h">
+      <Filter>Файлы заголовков\Методы исследования</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussTable.h">
+      <Filter>Файлы заголовков\Вспомогательные классы</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpsonMethod.h">
+      <Filter>Файлы заголовков\Методы исследования</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
