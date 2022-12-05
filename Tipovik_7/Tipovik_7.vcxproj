@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClCompile Include="EulerMethod.cpp" />
     <ClCompile Include="ODESolver.cpp" />
+    <ClCompile Include="RungeKuttaMethod.cpp" />
     <ClCompile Include="Tipovik_7.cpp" />
     <ClCompile Include="TrapezoidMethod.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EulerMethod.h" />
     <ClInclude Include="ODESolver.h" />
+    <ClInclude Include="RungeKuttaMethod.h" />
     <ClInclude Include="TrapezoidMethod.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -26,7 +26,7 @@ void TrapezoidMethod::Solve()
 
 void TrapezoidMethod::Print()
 {
-	printf("CurrentX: %.3f\n nextX: %.3f\nCurrentY: %.3f\n\n", currentX, nextX, currentY);
+	printf("CurrentX: %.3f\nnextX: %.3f\nCurrentY: %.3f\n\n", currentX, nextX, currentY);
 	printf("FirstFunc = %.3f^2 + ((%.3f - 1)/2) * %.3f = %.3f\n\n", currentX, k, currentY, firstFuncRes);
 	printf("SecondFunc = %.3f^2 + ((%.3f - 1)/2) * %.3f = %.3f\n\n", nextX, k, currentY + h * firstFuncRes, secondFuncRes);
 	printf("NextY: %.3f + %.3f/2* (%.3f + %.3f) = %.3f\n\n\n\n", currentY, h, firstFuncRes, secondFuncRes, nextY);

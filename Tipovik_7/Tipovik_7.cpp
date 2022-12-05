@@ -3,6 +3,7 @@
 #include "ODESolver.h"
 #include "EulerMethod.h"
 #include "TrapezoidMethod.h"
+#include "RungeKuttaMethod.h"
 
 using namespace std;
 
@@ -19,6 +20,6 @@ int main()
 
 	(new EulerMethod(k, l))->Solve();
 	(new TrapezoidMethod(k, l))->Solve();
-
+	(new RungeKuttaMethod(k, l))->Solve();
 	return 0;
 }
